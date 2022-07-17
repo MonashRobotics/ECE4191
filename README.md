@@ -32,15 +32,15 @@ sudo apt-get upgrade
 sudo apt-get install git python3-scipy jupyter libatlas-base-dev avahi-daemon tmux htop vim python3-pip python3-matplotlib libgl-dev net-tools
 ```
 
-Since we've installed the [avahi-daemon](http://avahi.org/), it's a good idea to change the hostname to something unique, eg. `ECE3091GROUPNO`. Use the command 
+Since we've installed the [avahi-daemon](http://avahi.org/), it's a good idea to change the hostname to something unique, eg. `ECE4191GROUPNO`. Use the command 
 ```
-hostnamectl set-hostname ECE3091GROUPNO
+hostnamectl set-hostname ECE4191GROUPNO
 ```
 to do this. You may need to reboot `sudo reboot` for this to take effect.
 
 Now, assuming you're on the same network, logging in to the pi remotely will be a lot easier going forward, just using:
 ```
-ssh pi@ECE3091GROUPNO.local
+ssh pi@ECE4191GROUPNO.local
 ```
 
 Ok, lets continue to install some more packages on the pi.
