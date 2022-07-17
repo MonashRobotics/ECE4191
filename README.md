@@ -51,7 +51,7 @@ pip3 install --user jupyter opencv-python torch
 
 Next, we'll clone this repository
 ```
-git clone https://github.com/mgb45/ECE3091_resources/
+git clone https://github.com/MonashRobotics/ECE4191/
 ```
 
 # Running the notebooks
