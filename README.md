@@ -47,6 +47,7 @@ Ok, lets continue to install some more packages on the pi.
 ``` 
 pip3 install --upgrade pip
 pip3 install --user jupyter opencv-python torch
+pip3 install --user numpy --upgrade
 ```
 
 Next, we'll clone this repository
