@@ -40,7 +40,7 @@ to do this. You may need to reboot `sudo reboot` for this to take effect.
 
 Now, assuming you're on the same network, logging in to the pi remotely will be a lot easier going forward, just using:
 ```
-ssh pi@ECE4191GROUPNO.local
+ssh ubuntu@ECE4191GROUPNO.local
 ```
 
 Ok, lets continue to install some more packages on the pi.
