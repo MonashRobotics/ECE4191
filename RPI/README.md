@@ -1,6 +1,6 @@
 # Robot design resources
 
-ECE4191/ ENG5105 is a design unit at Monash University, where students are required to design, build and program a mobile robot to solve some task. The robot is built around a differential drive platform, Raspberry Pi and camera module, but students are allowed to use whatever processor or custom accessories they like. 3D printed accessories and custom manipulators are encouraged. This repository has selection of code resources for mobile robot navigation and control, and some gpio pin interfacing. 
+ECE4191is a design unit at Monash University, where students are typically required to design, build and program a mobile robot to solve some task. The robot is built around a differential drive platform, Raspberry Pi and camera module, but students are allowed to use whatever processor or custom accessories they like. 3D printed accessories and custom manipulators are encouraged. This repository has selection of code resources for mobile robot navigation and control, and some gpio pin interfacing. 
 
 * [Robot navigation and control](/RPI/Robot_navigation_and_control.ipynb)
 * [Getting frames from the Pi Camera](/RPI/Camera_image_retrieval.ipynb)
@@ -18,7 +18,7 @@ If you would like to configure your raspberry pi to use jupyter follow the steps
 
 I'll assume you have an operating system with a terminal, and that can ssh. On windows, check out the [windows subsystem for linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10), and [putty](https://www.putty.org/). I will be using Ubuntu, which generally ships with terminal and ssh.
 
-I [installed Ubuntu 20.04 server](https://ubuntu.com/tutorials/how-to-install-ubuntu-on-your-raspberry-pi#1-overview) on my raspberry pi, because I wanted a 64 bit operating system for PyTorch (see below). If you want a graphical user interface, choose Ubuntu Desktop instead of server. You could follow a similar process for the Raspbian Buster distribution pre-installed on your sd cards, but you won't be able to use PyTorch if you do this as this is a 32 bit OS. 
+I [installed Ubuntu 20.04 server](https://ubuntu.com/tutorials/how-to-install-ubuntu-on-your-raspberry-pi#1-overview) on my raspberry pi, because I wanted a 64 bit operating system for PyTorch (see below). If you want a graphical user interface, choose Ubuntu Desktop instead of server. As part of these installation instructions, I gave my pi a hostname ECE4191GROUPNO to make it easier to ssh into.
 
 Let's log into our Ubuntu raspberry pi using ssh
 ```
@@ -29,14 +29,8 @@ Once you're in, it's time to install some useful software. [tmux](https://github
 ```
 sudo apt-get update
 sudo apt-get upgrade
-sudo apt-get install git python3-scipy jupyter libatlas-base-dev avahi-daemon tmux htop vim python3-pip python3-matplotlib libgl-dev net-tools python3-gpiozero
+sudo apt-get install git python3-scipy jupyter libatlas-base-dev tmux htop vim python3-pip python3-matplotlib libgl-dev net-tools python3-gpiozero
 ```
-
-Since we've installed the [avahi-daemon](http://avahi.org/), it's a good idea to change the hostname to something unique, eg. `ECE4191GROUPNO`. Use the command 
-```
-hostnamectl set-hostname ECE4191GROUPNO
-```
-to do this. You may need to reboot `sudo reboot` for this to take effect.
 
 Now, assuming you're on the same network, logging in to the pi remotely will be a lot easier going forward, just using:
 ```
