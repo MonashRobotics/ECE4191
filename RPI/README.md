@@ -29,10 +29,10 @@ Once you're in, it's time to install some useful software. [tmux](https://github
 ```
 sudo apt-get update
 sudo apt-get upgrade
-sudo apt-get install git python3-scipy jupyter libatlas-base-dev tmux htop vim python3-pip python3-matplotlib libgl-dev net-tools python3-gpiozero
+sudo apt-get install git python3-scipy jupyter libatlas-base-dev tmux htop vim python3-pip python3-matplotlib libgl-dev net-tools python3-gpiozero avahi-daemon
 ```
 
-Now, assuming you're on the same network, logging in to the pi remotely will be a lot easier going forward, just using:
+We installed the avahi daemon to make getting on our pi easier. Assuming you're on the same network and set up the hostname correctly, logging in to the pi remotely will be a lot easier going forward, just using:
 ```
 ssh ubuntu@ECE4191GROUPNO.local
 ```
