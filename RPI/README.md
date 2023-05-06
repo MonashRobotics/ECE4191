@@ -8,7 +8,6 @@ ECE4191/ ENG5105 is a design unit at Monash University, where students are requi
 * [Ultrasound distance sensing](/RPI/ultrasound_distance.ipynb)
 * [PWM motor control/ shaft encoder feedback](/RPI/PWM_Control_TB9051FTG_simplified.ipynb)
 
-
 There are also some nice [c++ programming resources](./cpp_resources) if you prefer to program using this language.
 
 # Setting up your raspberry pi to run these notebooks
