@@ -1,9 +1,13 @@
 # Robot design resources
 
-ECE4191/ ENG5105 is a design unit at Monash University, where students are required to design, build and program a mobile robot to solve some task. The robot is built around a differential drive platform, Raspberry Pi and camera module, but students are allowed to use whatever processor or custom accessories they like. 3D printed accessories and custom manipulators are encouraged. This repository has selection of code resources for mobile robot navigation and control, and a crash course in object detection. 
+ECE4191/ ENG5105 is a design unit at Monash University, where students are required to design, build and program a mobile robot to solve some task. The robot is built around a differential drive platform, Raspberry Pi and camera module, but students are allowed to use whatever processor or custom accessories they like. 3D printed accessories and custom manipulators are encouraged. This repository has selection of code resources for mobile robot navigation and control, and some gpio pin interfacing. 
 
-* [Robot navigation and control](https://github.com/mgb45/ECE3091_resources/blob/main/Robot_navigation_and_control.ipynb)
-* [Getting frames from the Pi Camera](https://github.com/mgb45/ECE3091_resources/blob/main/Camera_image_retrieval.ipynb)
+* [Robot navigation and control](/RPI/Robot_navigation_and_control.ipynb)
+* [Getting frames from the Pi Camera](/RPI/Camera_image_retrieval.ipynb)
+* [Servo motor control](/RPI/Servo_motor_control.ipynb)
+* [Ultrasound distance sensing](/RPI/ultrasound_distance.ipynb)
+* [PWM motor control/ shaft encoder feedback](/RPI/PWM_Control_TB9051FTG_simplified.ipynb)
+
 
 There are also some nice [c++ programming resources](./cpp_resources) if you prefer to program using this language.
 
