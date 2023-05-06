@@ -24,7 +24,7 @@ Let's log into our Ubuntu raspberry pi using ssh
 ```
 ssh ubuntu@ip_address
 ```
-Once you're in, it's time to install some useful software. [tmux](https://github.com/tmux/tmux/wiki) is a terminal multiplexer for running multiple programs in one terminal and remotely executing programs that will continue to run if the network drops. [htop](https://htop.dev/) is a terminal process viewer that will be useful to monitor processor load/ memory use. [vim](https://vim-adventures.com/) is a text editor for people who hate [emacs](https://en.wikipedia.org/wiki/Editor_war). Most of the rest are things we'll use in python.
+Once you're in, it's time to install some useful software. [tmux](https://github.com/tmux/tmux/wiki) is a terminal multiplexer for running multiple programs in one terminal and remotely executing programs that will continue to run if the network drops. [htop](https://htop.dev/) is a terminal process viewer that will be useful to monitor processor load/ memory use. [vim](https://vim-adventures.com/) is a text editor for people who hate [emacs](https://en.wikipedia.org/wiki/Editor_war). Most of the rest are things we'll use in python. [Minicom](https://en.wikipedia.org/wiki/Minicom#:~:text=Minicom%20is%20a%20text%2Dbased,Telix%20but%20is%20open%20source.) is a text-based terminal useful for serial communication testing.
 
 ```
 sudo apt-get update
