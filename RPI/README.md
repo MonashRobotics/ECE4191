@@ -8,6 +8,7 @@ Raspberry PI resources:
 * [Servo motor control](/RPI/Python_resources/Motors/Servo_motor_control.ipynb)
 * [Ultrasound distance sensing](/RPI/Python_resources/Sensors/ultrasound_distance.ipynb)
 * [PWM motor control/ shaft encoder feedback](/RPI/Python_resources/Motors/PWM_Control_TB9051FTG_simplified.ipynb)
+* [Image classification](/RPI/Python_resources/Vision/Image_classification.ipynb)
 
 There are also some nice [c++ programming resources](/RPI/cpp_resources) if you prefer to program using this language.
 
