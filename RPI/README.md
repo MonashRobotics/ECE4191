@@ -1,16 +1,21 @@
 # Robot design resources
 
-ECE4191is a design unit at Monash University, where students are typically required to design, build and program a mobile robot to solve some task. The robot is built around a differential drive platform, Raspberry Pi and camera module, but students are allowed to use whatever processor or custom accessories they like. 3D printed accessories and custom manipulators are encouraged. This repository has selection of code resources for mobile robot navigation and control, and some gpio pin interfacing. 
+ECE4191 is a design unit at Monash University, where students are typically required to design, build and program a mobile robot to solve some task. The robot is built around a differential drive platform, Raspberry Pi and camera module, but students are allowed to use whatever processor or custom accessories they like. 3D printed accessories and custom manipulators are encouraged. This repository has selection of code resources for mobile robot navigation and control, and some gpio pin interfacing. 
 
-* [Robot navigation and control](/RPI/Robot_navigation_and_control.ipynb)
-* [Getting frames from the Pi Camera](/RPI/Camera_image_retrieval.ipynb)
-* [Servo motor control](/RPI/Servo_motor_control.ipynb)
-* [Ultrasound distance sensing](/RPI/ultrasound_distance.ipynb)
-* [PWM motor control/ shaft encoder feedback](/RPI/PWM_Control_TB9051FTG_simplified.ipynb)
+Raspberry PI resources:
+* [Robot navigation and control](/RPI/Python_resources/Navigation/Robot_navigation_and_control.ipynb)
+* [Getting frames from the Pi Camera](/RPI/Python_resources/Vision/Camera_image_retrieval.ipynb)
+* [Servo motor control](/RPI/Python_resources/Motors/Servo_motor_control.ipynb)
+* [Ultrasound distance sensing](/RPI/Python_resources/Sensors/ultrasound_distance.ipynb)
+* [PWM motor control/ shaft encoder feedback](/RPI/Python_resources/Motors/PWM_Control_TB9051FTG_simplified.ipynb)
 
-There are also some nice [c++ programming resources](./cpp_resources) if you prefer to program using this language.
+There are also some nice [c++ programming resources](/RPI/cpp_resources) if you prefer to program using this language.
 
-# Setting up your raspberry pi to run these notebooks
+You may also be interested in the following communications resources:
+* [Bluetooth communications using the Python Socket library (PC/ Raspberry PI)](/Communications/Bluetooth/pc/)
+* [TCP/IP communications using the Python Socket library (PC/ Raspberry PI)](/Communications/TCPIP)
+
+# Setting up your Raspberry pi to run these notebooks
 
 If you would like to configure your raspberry pi to use jupyter follow the steps below.
 
