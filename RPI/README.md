@@ -16,7 +16,7 @@ You may also be interested in the following communications resources:
 * [Bluetooth communications using the Python Socket library (PC/ Raspberry PI)](/Communications/Bluetooth/pc/)
 * [TCP/IP communications using the Python Socket library (PC/ Raspberry PI)](/Communications/TCPIP)
 
-# Setting up your Raspberry pi to run these notebooks
+# Setting up your Raspberry pi 4b to run these notebooks
 
 If you would like to configure your raspberry pi to use jupyter follow the steps below.
 
