@@ -2,10 +2,7 @@
 
 The ESP32-CAM comes with an excellent built-in Wi-Fi module, allowing you to set it up as a web server. This lets you handle tasks like streaming video from the camera, displaying live sensor data, and remotely controlling the flash LED, all from a single web page.
 
-<video width="500" height="300" controls>
-  <source src="../Figures/webserver_demo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+![Demo](../Figures/webserver_demo.gif)
 
 If you can't see the video, you can [watch it here](../Figures/webserver_demo.mp4).
 

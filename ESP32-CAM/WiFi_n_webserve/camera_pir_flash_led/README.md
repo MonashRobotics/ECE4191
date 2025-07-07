@@ -10,6 +10,8 @@ We use GPIO 13 to read the sensor output (OUT should be ~3.3V), connect:
 - ESP GND <--> PIR GND <--> Ground (During runtime)
 - ESP 5V <--> 5V power source (During runtime)
 
+
+
 ## Coding
 The majority of the code is the same as the only camera demo. Let's talk about the changes.
 
@@ -266,7 +268,6 @@ As a final touch, some code to make the page looks pretty:
 
 Upload the new code `camera_pir_flash_led.ino` to ESP32-CAM. Connect the PIR sensor, power the ESP32-CAM, wait until it connects to Wi-Fi and then use a web browser to connect to it's IP. If everything goes right, you should see something similar to this:
 
-<video width="500" height="300" controls>
-  <source src="../../Figures/webserver_demo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+![Demo](../../Figures/webserver_demo.gif)
+
+<img src="../../Figures/setup.jpg" alt="Setup" width="800"/>
