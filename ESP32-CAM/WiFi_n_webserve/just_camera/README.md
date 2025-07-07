@@ -329,3 +329,5 @@ Now connect your ESP32-CAM to your computer via either a FTDI adaptor or an ESP3
 This means your ESP has successfully connected to the Wi-Fi and started the web server. Now use a device that can open a browser to connect to the IP (In my case: http://192.168.0.101). If everything goes right, you should now see the live video on the browser.
 
 If your ESP doesn't connect to Wi-Fi, double check the SSID and password you entered.
+
+Now if you're ready, let's jump to the next part: [Wi-Fi web server + Camera + PIR sensor + Flash light control](./camera_pir_flash_led/).
