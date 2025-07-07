@@ -17,14 +17,14 @@ If you can't see the video, you can [watch it here](../Figures/webserver_demo.mp
 - A device that can connect to Wi-Fi and open a browser
 - An available Wi-Fi network or hotspot (avoid eduroam; it usually won’t work)
 
-# Wi-Fi web server + Camera
+# To start
 
-Many online tutorials introduce you to the CameraWebServer example, which gives you a fancy web page that streams video from the camera and lets you adjust parameters like brightness. But for this unit, you probably couldn’t care less about taking fancy photos. So I’ve stripped it down to a simpler example and will explain each part.
+There are two parts in this tutorial. I recommend go through the first one before jumping to the second.
 
-## Connection
+## [Wi-Fi web server + Camera](./just_camera/README.md)
 
-Simply connect your ESP32-CAM to the camera module. For programming, plug the ESP32-CAM into the adapter, then connect the whole setup to your computer.
+We learn all the basics and build a web server which can live stream the ESP camera.
 
-## Coding
+## [Wi-Fi web server + Camera + PIR sensor + Flash light control](./camera_pir_flash_led/README.md)
 
-Find the code for this part in [this folder](./just_camera/). `just_camera.ino` is the main file. 
+Based on the first part, we add live PIR sensor feedback and flash LED control on our web server.

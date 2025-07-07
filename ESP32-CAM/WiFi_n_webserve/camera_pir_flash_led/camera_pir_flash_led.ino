@@ -91,7 +91,7 @@ void handleSensor(WiFiClient client, int pirState) {
   client.println("HTTP/1.1 200 OK");
   client.println("Content-Type: text/plain");
   client.println("Connection: close");
-  client.println();  // blank line ends headers
+  client.println();
   client.println(pirState); // sends 0 or 1 with newline
 }
 
@@ -99,7 +99,7 @@ void serveWebPage(WiFiClient client) {
   client.println("HTTP/1.1 200 OK");
   client.println("Content-Type: text/html");
   client.println("Connection: close");
-  client.println(); // blank line to end HTTP headers
+  client.println();
   client.print(webpage);
 }
 

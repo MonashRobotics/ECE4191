@@ -72,15 +72,13 @@ void streamTask(WiFiClient client) {
     esp_camera_fb_return(fb);
     delay(50); // ~20 FPS
   }
-
-  client.stop();
 }
 
 void serveWebPage(WiFiClient client) {
   client.println("HTTP/1.1 200 OK");
   client.println("Content-Type: text/html");
   client.println("Connection: close");
-  client.println(); // blank line to end HTTP headers
+  client.println();
   client.print(webpage);
 }
 
