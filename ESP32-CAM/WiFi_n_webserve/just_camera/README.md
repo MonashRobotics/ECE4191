@@ -330,4 +330,4 @@ This means your ESP has successfully connected to the Wi-Fi and started the web 
 
 If your ESP doesn't connect to Wi-Fi, double check the SSID and password you entered.
 
-Now if you're ready, let's jump to the next part: [Wi-Fi web server + Camera + PIR sensor + Flash light control](./camera_pir_flash_led/).
+Now if you're ready, let's jump to the next part: [Wi-Fi web server + Camera + PIR sensor + Flash light control](../camera_pir_flash_led/).
