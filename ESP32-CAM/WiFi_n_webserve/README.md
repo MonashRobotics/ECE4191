@@ -21,10 +21,10 @@ If you can't see the video, you can [watch it here](../Figures/webserver_demo.mp
 
 There are two parts in this tutorial. I recommend go through the first one before jumping to the second.
 
-## [Wi-Fi web server + Camera](./just_camera/README.md)
+## [Wi-Fi web server + Camera](./just_camera/)
 
 We learn all the basics and build a web server which can live stream the ESP camera.
 
-## [Wi-Fi web server + Camera + PIR sensor + Flash light control](./camera_pir_flash_led/README.md)
+## [Wi-Fi web server + Camera + PIR sensor + Flash light control](./camera_pir_flash_led/)
 
 Based on the first part, we add live PIR sensor feedback and flash LED control on our web server.
