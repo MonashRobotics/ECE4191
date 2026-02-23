@@ -1,4 +1,4 @@
-# ECE4191
+# ECE4191 [Deprecated - these resources are no longer in use]
 
 This repository contains a series of resources for Engineering design at Monash university. 
 
